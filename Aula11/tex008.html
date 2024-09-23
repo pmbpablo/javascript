@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <div>Onde você mora? <input type="text" name="pais" id="pais"></div>
+    <input type="button" value="resultado" onclick="funcao()">
+    <div id="resposta">
+        
+    </div>
+
+    <script>
+        function funcao(){
+            var vpais = window.document.querySelector(`input#pais`)
+            var vresposta = window.document.querySelector(`div#resposta`)
+            
+
+            resposta.innerHTML = `<p> você mora no/a ${pais}`
+        }
+    </script>
+</body>
+</html>
