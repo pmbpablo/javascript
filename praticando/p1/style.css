@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+}
+
+#corpo{
+    background-color: rgb(96, 117, 225);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+    border-style:solid ;
+    border-color: rgb(179, 200, 219);
+    
+}
+
+#resultado{
+    margin-top: 10px;
+    color: white;
+}
