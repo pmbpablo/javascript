@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
    <div id="corpo">
     <p>Nome: <input type="text" name="nome" id="nome" ></p>
-    <p>Idade: <input type="number" name="idade" id="idade" ></p>
+    <p>Idade: <input  type="number" name="idade" id="idade" required ></p>
     <p> Sexo:
     <input type="radio" name="sex" id="mas" checked>
     <label for="mas" >Masculino</label>
     <input type="radio" name="sex" id="fem">
     <label for="fem">Feminino</label>
     </p>
-    <input type="button" value="Confirmar" onclick="pform()">
+    <input type="submit" value="Confirmar" onclick="pform()">
     
     <div id="resultado">
         

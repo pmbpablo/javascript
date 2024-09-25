@@ -21,4 +21,13 @@ body{
 #resultado{
     margin-top: 10px;
     color: white;
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
 }
