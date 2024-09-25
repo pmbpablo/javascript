@@ -15,11 +15,17 @@
 
     <script>
         function funcao(){
-            var vpais = window.document.querySelector(`input#pais`)
+            var pais  = window.document.querySelector(`input#pais`)
+            var vpais = pais.value
             var vresposta = window.document.querySelector(`div#resposta`)
             
 
-            resposta.innerHTML = `<p> você mora no/a ${pais}`
+            resposta.innerHTML = `<p> você mora no/a ${vpais}`
+            if(vpais == 'Brasil' || vpais == 'brasil'){
+                vresposta.innerHTML += 'Você é brasileiro'
+            } else{
+                vresposta.innerHTML += 'Você é estrangeiro'
+            }
         }
     </script>
 </body>
