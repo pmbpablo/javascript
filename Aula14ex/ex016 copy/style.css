@@ -17,6 +17,10 @@ section{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.362);
 
 }
+
+#inicio, #fim , #passo , #botao{
+    margin-top: 20px;
+}
 footer{
     color: white;
     text-align: center;
