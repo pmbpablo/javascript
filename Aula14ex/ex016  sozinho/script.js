@@ -9,7 +9,7 @@ var v_passo = Number(passo.value)
 
 var res = document.getElementById('res')
 
-if(v_passo == '' ){
+if(v_passo == 0 ){
     res.innerHTML=('Falta preencher o campo passo')
 } else{
     while(v_inicio <= 6){
