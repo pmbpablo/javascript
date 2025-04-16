@@ -51,5 +51,5 @@ console.log(+idade + 5); // 33
 
 var possuiFaculdade = true;
 console.log(+possuiFaculdade); // 1
-Copiar
+
 //O - antes de um número torna-o negativo
